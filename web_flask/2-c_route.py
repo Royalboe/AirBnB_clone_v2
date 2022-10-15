@@ -21,7 +21,7 @@ def display_hbnb():
 def display_c(text):
     """Displays 'C' followed by the value of <text>"""
     text = text.replace("_", " ")
-    return f"C {text}"
+    return "C {}".format(text)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
